@@ -1,0 +1,26 @@
+#include<stdio.h>
+void main()
+{
+	char firstame[]="PAWAR";
+	char middlename[]="SANKET";
+	char lastname[]="BHIMRAO";
+	int i;
+	i=0;
+	while(firstname[i]!='\0')
+	{
+		printf("%c",firstname[i]);
+		i++;
+	}
+	i=0;
+	while(middlename[i]!='\0')
+	{
+		printf("%c",middlename[i]);
+		i++;
+	}
+	i=0;
+	while(lastname[i]!='\0')
+	{
+		printf("%c",lastname[i]);
+		i++;
+	}
+}
